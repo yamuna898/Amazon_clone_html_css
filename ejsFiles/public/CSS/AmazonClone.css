@@ -69,12 +69,12 @@ body {
 .topmid #dropDown:focus,
 .topmid input:focus {
     /* Border color when the text box is focused (clicked) */
-    border: rgba(249, 157, 9, 0.948) solid 4.5px;
+    border: #fdc428 solid 4.5px;
     outline: none; /* Removes the default browser outline */
 }
 .topmid button {
     border: 0px;
-    background-color: rgba(249, 157, 9, 0.948);
+    background-color: #fdc428;
     font-size: 20px;
     height: 38px;
     width: 40px;
@@ -388,7 +388,6 @@ body {
 .footer {
     background-color: #23364b;
     color: white;
-    /* height: 900px; */
     width: 100%;
     position: relative;
     top: 6500px;
@@ -402,11 +401,11 @@ body {
     height: 32px;
     padding-top: 12px;
     text-align: center;
+    font-size: 13.5px;
+    color: white;
 }
 .wan a {
-    font-size: 13.5px;
     text-decoration: none;
-    color: white;
 }
 .tu {
     height: 400px;
@@ -477,24 +476,17 @@ body {
     margin: 0;
     opacity: 0.5;
 }
+
 .end {
-    display: flex;
-    justify-content: center;
-    margin-left: 600px;
-    gap: 0.1px;
+    align-items: end;
+    background: #000;
+    text-align: center;
+    line-height: 15px;
 }
-.end ul {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    gap: 10px;
+.end a {
+    text-decoration: none;
+    margin-right: 17px;
 }
-.end li {
-    width: 150px;
-    height: 25px;
-}
-.end span {
-    margin: 0;
-    padding: 0;
+.end p {
+    margin-right: 20px;
 }

@@ -4,7 +4,7 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="icon" href="logo.png" />
-        <link rel="stylesheet" href="ejsFiles/public/CSS/AmazonClone.css" />
+        <link rel="stylesheet" href="AmazonClone.css" />
         <link
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
@@ -18,7 +18,7 @@
         <!-- Upper Top -->
         <div id="top">
             <div class="topleft">
-                <img src="/Logo/logoBlackbg.png" alt="Logo" />
+                <img src="logoBlackbg.png" alt="Logo" />
                 <div class="location">
                     <i class="fa-solid fa-location-dot"></i>
                     <p>
@@ -89,7 +89,10 @@
 
                 <input type="text" id="sr" placeholder="Search Amazon.in" />
 
-                <button class="fa-solid fa-magnifying-glass"></button>
+                <button
+                    class="fa-solid fa-magnifying-glass"
+                    onclick="window.location.href='/SearchedPage.ejs'"
+                ></button>
             </div>
             <div class="topright">
                 <p id="lang">🏳️‍🌈 EN</p>
@@ -736,13 +739,16 @@
                             </span>
                         </li>
                     </ul>
-                </div>
-                <div class="end">
-                    <a>Conditions of Use </a>
-                    <a> Privacy Notice </a>
-                    <a> Help</a>
-                    <br />
-                    <p>© 1996-2025, Amazon.com, Inc. or its affiliates</p>
+                    <div class="end">
+                        <ul>
+                            <li>Conditions of Use & Sale</li>
+                            <li>Privacy Notice</li>
+                            <li>Interest-Based Ads</li>
+                        </ul>
+                        <span>
+                            © 1996-2025, Amazon.com, Inc. or its affiliates
+                        </span>
+                    </div>
                 </div>
             </div>
         </div>

@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Amazon</title>
+        <link rel="stylesheet" href="SearchedPage.css" />
+        <link rel="icon" href="logo.png" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+            integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+    </head>
+    <body>
+        <%- include("includes/FixedTop.html") %>
+        <div class="main">
+            <div class="custom">
+                <h4>Price</h4>
+                <input type="range" min="50" max="1000000" />
+                <button>Go</button>
+                <ul>
+                    <li>Up to ₹250</li>
+                    <li>₹250 - ₹400</li>
+                    <li>₹400 - ₹700</li>
+                    <li>₹700 - ₹1,300</li>
+                    <li>Over ₹1,300</li>
+                    <li><b>Deals & Discounts</b></li>
+                    <li>All Discounts</li>
+                    <li>Today's Deals</li>
+                    <li><b>Customer Review</b></li>
+                    <li>★★★⯪☆ & Up</li>
+                    <li><b>Brands</b></li>
+                    <input
+                        id="check1"
+                        type="checkbox"
+                        name="Category"
+                        value="Crosscut Furniture"
+                    />
+                    <label for="check1">Crosscut Furniture</label>
+                    <br />
+                    <input
+                        id="check2"
+                        type="checkbox"
+                        name="Category"
+                        value="Homesake"
+                    />
+                    <label for="check2">Homesake</label>
+                    <br />
+                    <input
+                        id="check3"
+                        type="checkbox"
+                        name="Category"
+                        value="Desidiya"
+                    />
+                    <label for="check3">Desidiya</label>
+                    <br />
+                    <input
+                        id="check4"
+                        type="checkbox"
+                        name="Category"
+                        value="FLYNGO"
+                    />
+                    <label for="check4">FLYNGO</label>
+                    <br />
+                    <input
+                        id="check5"
+                        type="checkbox"
+                        name="Category"
+                        value="NYRWANA"
+                    />
+                    <label for="check5">NYRWANA</label>
+                    <br />
+                    <input
+                        id="check6"
+                        type="checkbox"
+                        name="Category"
+                        value="Divine Trends"
+                    />
+                    <label for="check6">Divine Trends</label
+                    ><br />
+                    <li>V <a href="#">See More</a></li>
+                    <li><b>Lighting Top Brands</b></li>
+                    <input
+                        id="check7"
+                        type="checkbox"
+                        name="Brands"
+                        value="Top Brands"
+                    />
+                    <label for="check7">Top Brands</label
+                    ><br />
+                    <input
+                        id="check8"
+                        type="checkbox"
+                        name="Brands"
+                        value="Made for Amazon"
+                    />
+                    <label for="check8">Made for Amazon</label
+                    ><br />
+                    <li><b>Discount</b></li>
+                    <li>10% Off or more</li>
+                    <li>25% Off or more</li>
+                    <li>35% Off or more</li>
+                    <li>50% Off or more</li>
+                    <li>60% Off or more</li>
+                    <li>70% Off or more</li>
+                    <li><b>Room Type</b></li>
+                    <input
+                        id="check9"
+                        type="checkbox"
+                        name="Category"
+                        value="Bedroom"
+                    />
+                    <label for="check9">Bedroom</label>
+                    <br />
+                    <input
+                        id="check10"
+                        type="checkbox"
+                        name="Category"
+                        value="Living Room"
+                    />
+                    <label for="check10">Living Room</label>
+                    <br />
+                    <input
+                        id="check11"
+                        type="checkbox"
+                        name="Category"
+                        value="Office"
+                    />
+                    <label for="check11">Office</label>
+                    <br />
+                    <input
+                        id="check12"
+                        type="checkbox"
+                        name="Category"
+                        value="Bathroom"
+                    />
+                    <label for="check12">Bathroom</label>
+                    <br />
+                    <input
+                        id="check13"
+                        type="checkbox"
+                        name="Category"
+                        value="Dining Room"
+                    />
+                    <label for="check13">Dining Room</label>
+                    <br />
+                    <input
+                        id="check14"
+                        type="checkbox"
+                        name="Category"
+                        value="Kids Room"
+                    />
+                    <label for="check14">Kids Room</label>
+                    <br />
+                    <li>V <a href="#">See More</a></li>
+                    <li><b>Pat On Delivery</b></li>
+                    <li>Eligible for Pay On Delivery</li>
+                    <li><b>More Discount</b></li>
+                    <li>10% Off or more</li>
+                    <li>25% Off or more</li>
+                    <li>35% Off or more</li>
+                    <li>50% Off or more</li>
+                    <li>60% Off or more</li>
+                    <li>70% Off or more</li>
+                    <li>Up to ₹250</li>
+                    <li>₹250 - ₹400</li>
+                    <li>₹400 - ₹700</li>
+                    <li>₹700 - ₹1,300</li>
+                    <li>Over ₹1,300</li>
+                    <li><b>Deals & Discounts</b></li>
+                    <li>All Discounts</li>
+                    <li>Today's Deals</li>
+                    <li><b>Customer Review</b></li>
+                    <li>★★★⯪☆ & Up</li>
+                    <li><b>Brands</b></li>
+                    <input
+                        id="check1"
+                        type="checkbox"
+                        name="Category"
+                        value="Crosscut Furniture"
+                    />
+                    <label for="check1">Crosscut Furniture</label>
+                    <br />
+                    <input
+                        id="check2"
+                        type="checkbox"
+                        name="Category"
+                        value="Homesake"
+                    />
+                    <label for="check2">Homesake</label>
+                    <br />
+                    <input
+                        id="check3"
+                        type="checkbox"
+                        name="Category"
+                        value="Desidiya"
+                    />
+                    <label for="check3">Desidiya</label
+                    ><br />
+                    <input
+                        id="check4"
+                        type="checkbox"
+                        name="Category"
+                        value="FLYNGO"
+                    />
+                    <label for="check4">FLYNGO</label
+                    ><br />
+                    <input
+                        id="check5"
+                        type="checkbox"
+                        name="Category"
+                        value="NYRWANA"
+                    />
+                    <label for="check5">NYRWANA</label
+                    ><br />
+                    <input
+                        id="check6"
+                        type="checkbox"
+                        name="Category"
+                        value="Divine Trends"
+                    />
+                    <label for="check6">Divine Trends</label
+                    ><br />
+                    <li>V <a href="#">See More</a></li>
+                    <li><b>Lighting Top Brands</b></li>
+                    <input
+                        id="check7"
+                        type="checkbox"
+                        name="Brands"
+                        value="Top Brands"
+                    />
+                    <label for="check7">Top Brands</label
+                    ><br />
+                    <input
+                        id="check8"
+                        type="checkbox"
+                        name="Brands"
+                        value="Made for Amazon"
+                    />
+                    <label for="check8">Made for Amazon</label
+                    ><br />
+                    <li><b>Pat On Delivery</b></li>
+                    <li>Eligible for Pay On Delivery</li>
+                    <li><b>More Discount</b></li>
+                    <li>10% Off or more</li>
+                    <li>25% Off or more</li>
+                    <li>35% Off or more</li>
+                    <li>50% Off or more</li>
+                    <li>60% Off or more</li>
+                    <li>70% Off or more</li>
+                    <li>Up to ₹250</li>
+                    <li>₹250 - ₹400</li>
+                    <li>₹400 - ₹700</li>
+                    <li>₹700 - ₹1,300</li>
+                    <li>Over ₹1,300</li>
+                    <li><b>Deals & Discounts</b></li>
+                    <li>All Discounts</li>
+                    <li>Today's Deals</li>
+                    <li><b>Customer Review</b></li>
+                    <li>★★★⯪☆ & Up</li>
+                    <li><b>Brands</b></li>
+                    <input
+                        id="check1"
+                        type="checkbox"
+                        name="Category"
+                        value="Crosscut Furniture"
+                    />
+                    <label for="check1">Crosscut Furniture</label
+                    ><br />
+                    <input
+                        id="check2"
+                        type="checkbox"
+                        name="Category"
+                        value="Homesake"
+                    />
+                    <label for="check2">Homesake</label
+                    ><br />
+                    <input
+                        id="check3"
+                        type="checkbox"
+                        name="Category"
+                        value="Desidiya"
+                    />
+                    <label for="check3">Desidiya</label
+                    ><br />
+                    <input
+                        id="check4"
+                        type="checkbox"
+                        name="Category"
+                        value="FLYNGO"
+                    />
+                    <label for="check4">FLYNGO</label
+                    ><br />
+                    <input
+                        id="check5"
+                        type="checkbox"
+                        name="Category"
+                        value="NYRWANA"
+                    />
+                    <label for="check5">NYRWANA</label
+                    ><br />
+                    <input
+                        id="check6"
+                        type="checkbox"
+                        name="Category"
+                        value="Divine Trends"
+                    />
+                    <label for="check6">Divine Trends</label
+                    ><br />
+                    <li>V <a href="#">See More</a></li>
+                </ul>
+            </div>
+            <!-- cards -->
+
+            <div class="cards">
+                <!-- 1st 8card -->
+                <div class="reccard one">
+                    <h2>Revamp your home in style | upto 67% off</h2>
+                    <div class="imgsec">
+                        <div class="simg c11"></div>
+                        <div class="simg c12"></div>
+                        <p>Cushion covers, bedsheets & more</p>
+                        <p>Figurines, vases & more</p>
+                        <div class="simg c13"></div>
+                        <div class="simg c14"></div>
+                        <p>Home storage</p>
+                        <p>Lighting Solutions</p>
+                    </div>
+                    <a href="#">See more</a>
+                </div>
+                <div class="reccard two">
+                    <h2>Appliances for your home | Up to 55% off</h2>
+                    <div class="imgsec">
+                        <div class="simg c21"></div>
+                        <div class="simg c22"></div>
+                        <p>Air conditioners</p>
+                        <p>Refrigerators</p>
+                        <div class="simg c23"></div>
+                        <div class="simg c24"></div>
+                        <p>Microwaves</p>
+                        <p>Washing Machines</p>
+                    </div>
+                    <a href="#">See more</a>
+                </div>
+                <div class="reccard three">
+                    <h2>Starting ₹149 | Headphones under ₹1500</h2>
+                    <div class="imgsec">
+                        <div class="simg c31"></div>
+                        <div class="simg c32"></div>
+                        <p>Starting ₹249 | Boat</p>
+                        <p>Starting ₹679 | Boult</p>
+                        <div class="simg c33"></div>
+                        <div class="simg c34"></div>
+                        <p>Starting ₹567 | Noise</p>
+                        <p>Starting ₹907 | Zebronics</p>
+                    </div>
+                    <a href="#">See more</a>
+                </div>
+
+                <div class="reccard four">
+                    <h2>Under ₹999 | Home improvement essentials</h2>
+                    <div class="imgsec">
+                        <div class="simg c41"></div>
+                        <div class="simg c42"></div>
+                        <p>Cleaning Under ₹199 | Cleaning supplies</p>
+                        <p>Under ₹399 | Bathroom accessories</p>
+                        <div class="simg c43"></div>
+                        <div class="simg c44"></div>
+                        <p>Home tools Under ₹499 | Home tools</p>
+                        <p>Under ₹299 | Wallpapers</p>
+                    </div>
+                    <a href="#">See more</a>
+                </div>
+                <div class="reccard five">
+                    <h2>Up to 50% off | toys | Amazon Brands</h2>
+                    <div class="imgsec">
+                        <div class="simg c51"></div>
+                        <div class="simg c52"></div>
+                        <p>
+                            Up to 50% off | Baby diapers & wipes Up to 50% off
+                        </p>
+                        <p>Up to 50% off | Ride ons</p>
+                        <div class="simg c53"></div>
+                        <div class="simg c54"></div>
+                        <p>Starting ₹649 | RC cars</p>
+                        <p>Up to 50% off | Baby safety essentials</p>
+                    </div>
+                    <a href="#">See more</a>
+                </div>
+                <div class="reccard six">
+                    <h2>Starting ₹199 | Amazon Brands & more</h2>
+                    <div class="imgsec">
+                        <div class="simg c61"></div>
+                        <div class="simg c62"></div>
+                        <p>Starting ₹199 | Bedsheets</p>
+                        <p>Starting ₹199 | Curtains</p>
+                        <div class="simg c63"></div>
+                        <div class="simg c64"></div>
+                        <p>Minimum 40% off | Ironing board & more</p>
+                        <p>Up to 60% off | Home decor</p>
+                    </div>
+                    <a href="#">See more</a>
+                </div>
+                <div class="reccard seven">
+                    <h2>Automotive essentials | Up to 60% off</h2>
+                    <div class="imgsec">
+                        <div class="simg c71"></div>
+                        <div class="simg c72"></div>
+                        <p>Cleaning accessories</p>
+                        <p>Tyre & rim care</p>
+                        <div class="simg c73"></div>
+                        <div class="simg c74"></div>
+                        <p>Helmets</p>
+                        <p>Vacuum cleaner</p>
+                    </div>
+                    <a href="#">See more</a>
+                </div>
+                <div class="reccard eight">
+                    <h2>Appliances for your home | Up to 55% off</h2>
+                    <div class="imgsec">
+                        <div class="simg c21"></div>
+                        <div class="simg c22"></div>
+                        <p>Air conditioners</p>
+                        <p>Refrigerators</p>
+                        <div class="simg c23"></div>
+                        <div class="simg c24"></div>
+                        <p>Microwaves</p>
+                        <p>Washing Machines</p>
+                    </div>
+                    <a href="#">See more</a>
+                </div>
+            </div>
+        </div>
+
+        <%- include("includes/FixedBottom.html") %>
+    </body>
+</html>

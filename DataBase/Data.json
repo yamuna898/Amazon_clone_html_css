@@ -1,0 +1,64 @@
+{
+    "mostSearched": {
+        "Categories": {
+            "AmazonDevices": {
+                "mobiles": {},
+                "tv": {},
+                "laptops": {},
+                "Appliances": {}
+            },
+            "Amazon Fashion": {
+                "dress": {},
+                "pants": {},
+                "tshirt": {},
+                "shirt": {}
+            },
+            "Amazon Fresh": {
+                "vegitables": {},
+                "wholeGrains": {},
+                "Juices": {},
+                "Sweets": {}
+            },
+            "Amazon Pharmacy": {},
+            "Appliances": {},
+            "Apps & Games": {},
+            "Audible Audiobooks": {},
+            "Baby": {},
+            "Beauty": {},
+            "Books": {},
+            "Car & Motorbike": {},
+            "Clothing & Accessories": {},
+            "Collectibles": {},
+            "Computers & Accessories": {},
+            "Deals": {},
+            "Electronics": {},
+            "Furniture": {},
+            "Garden & Outdoors": {},
+            "Gift Cards": {},
+            "Grocery & Gourmet Foods": {},
+            "Health & Personal Care": {},
+            "Home & Kitchen": {},
+            "Industrial & Scientific": {},
+            "Jewellery": {},
+            "Kindle Store": {},
+            "Luggage & Bags": {},
+            "Luxury Beauty": {},
+            "Movies & TV Shows": {},
+            "MP3 Music": {},
+            "Music": {},
+            "Musical Instruments": {},
+            "Office Products": {},
+            "Pet Supplies": {},
+            "Prime Video": {},
+            "Shoes & Handbags": {},
+            "Software": {},
+            "Sports, Fitness & Outdoors": {},
+            "Subscribe & Save": {},
+            "Tools&Home": {},
+            "Toys & Games": {},
+            "Under ₹500": {},
+            "Video Games": {},
+            "Watches": {}
+        }
+    }
+}
