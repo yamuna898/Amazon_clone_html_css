@@ -31,7 +31,7 @@ app.get("/signup", (req, res) => {
 app.get("/HomePage", (req, res) => {
     res.render("HomePage.ejs");
 });
-app.get("/SearchedPage.ejs", (req, res) => {
+app.get("/query", (req, res) => {
     res.render("SearchedPage.ejs");
 });
 app.get("/PasswordAssistance", (req, res) => {
@@ -39,6 +39,9 @@ app.get("/PasswordAssistance", (req, res) => {
 });
 app.get("/VerificationPage", (req, res) => {
     res.render("VerificationPage.ejs");
+});
+app.get("/cart", (req, res) => {
+    res.render("cart.ejs");
 });
 app.get(/.*/, (req, res) => {
     res.render("NoPage.ejs");

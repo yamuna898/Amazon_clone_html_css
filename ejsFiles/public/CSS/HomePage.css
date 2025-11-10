@@ -1,0 +1,492 @@
+body {
+    margin: 0;
+    background-color: #e3d7d7;
+    font-family: system-ui;
+}
+/* Upper Top--------------------------------*/
+#top {
+    z-index: 100;
+    position: fixed;
+    background-color: black;
+    height: 65px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 200px 0px 0px;
+}
+.topleft {
+    display: flex;
+}
+.topleft img {
+    height: 50px;
+    width: 130px;
+    margin: 0px 0px 0px 15px;
+}
+.topleft .location {
+    padding: 3px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.topleft .location i {
+    font-size: 19px;
+    color: white;
+    margin-top: 3px;
+    margin: 0px 5px 5px 0px;
+    align-self: flex-end;
+}
+.topleft .location p {
+    color: white;
+    font-size: 13px;
+    margin: 0;
+    align-self: center;
+}
+
+/* Top mid----------------------*/
+.topmid {
+    flex-grow: 1;
+    display: flex;
+}
+.topmid #dropDown {
+    height: 38px;
+    max-width: 300px; /*Force dropdown list to expand fully*/
+    border-radius: 5px 0px 0px 5px;
+    border: 0px;
+    background-color: rgb(218, 213, 213);
+    position: relative;
+    left: 50px;
+    cursor: pointer;
+}
+.topmid input {
+    flex-grow: 1;
+    height: 30px;
+    font-size: 15px;
+    padding: 0px 60px;
+    border-radius: 5px;
+    border: rgba(0, 0, 0, 0) solid 4.5px;
+}
+.topmid #dropDown:focus,
+.topmid input:focus {
+    /* Border color when the text box is focused (clicked) */
+    border: #fdc428 solid 4.5px;
+    outline: none; /* Removes the default browser outline */
+}
+.topmid button {
+    border: 0px;
+    background-color: #fdc428;
+    font-size: 20px;
+    height: 38px;
+    width: 40px;
+    padding-top: 2.5px;
+    border-radius: 0px 5px 5px 0px;
+    position: relative;
+    right: 40px;
+}
+
+/* Top right */
+.topright {
+    color: white;
+    width: 330px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.topright i {
+    font-size: 45px;
+}
+.topright p {
+    font-size: 5px;
+}
+@media (max-width: 960px) {
+    #lang {
+        display: none;
+    }
+    .topright {
+        width: 210px;
+    }
+}
+@media (max-width: 768px) {
+    #returns {
+        display: none;
+    }
+}
+
+/* Lower Top-------------------------------------------*/
+.top1blue {
+    background-color: rgb(40, 40, 94);
+    color: white;
+    height: 30px;
+    width: 100%;
+    position: absolute;
+    top: 65px;
+    font-size: 1px;
+}
+.top1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top1 select {
+    background-color: inherit;
+    color: white;
+    background-color: rgb(40, 40, 94);
+    appearance: none;
+    height: 30px;
+    width: 40px;
+    padding: 5px;
+    border: 0px;
+}
+.top1 label i {
+    position: absolute;
+    top: 10px;
+    left: 5px;
+}
+.top1 button {
+    background-color: brown;
+    margin-right: 20px;
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+}
+@media (max-width: 2560px) {
+    .a {
+        display: none;
+    }
+}
+@media (max-width: 2400px) {
+    .b {
+        display: none;
+    }
+}
+@media (max-width: 1920px) {
+    .c {
+        display: none;
+    }
+}
+@media (max-width: 1536px) {
+    .d {
+        display: none;
+    }
+}
+@media (max-width: 1097.41px) {
+    .e {
+        display: none;
+    }
+}
+@media (max-width: 768px) {
+    .f {
+        display: none;
+    }
+}
+/* Main--------------------------------- */
+.mainsec {
+    z-index: 0;
+    display: flex;
+    justify-content: center;
+}
+#disimg {
+    width: 1536px;
+    mask-image: linear-gradient(to top, transparent, black 30%);
+    position: absolute;
+    top: 95px;
+}
+/* OK=================OK===================OK */
+.cards {
+    position: absolute;
+    top: 355px;
+    display: grid;
+    grid-template-rows: repeat(14, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    justify-content: center;
+    align-content: center;
+}
+.reccard {
+    background-color: #fff;
+    height: 400px;
+    width: 320px;
+    padding: 10px 15px 0px 15px;
+    display: flex;
+    flex-direction: column;
+}
+.widcard {
+    background-color: white;
+    height: 400px;
+    width: 1432px;
+    padding: 10px 15px 0px 15px;
+}
+.widcard h3 {
+    display: block;
+}
+.widcard div {
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 10px;
+    overflow-x: scroll;
+    width: 1300px;
+}
+.reccard h1 {
+    margin: 0px;
+    padding: 5px;
+}
+.reccard a {
+    justify-self: flex-end;
+}
+.reccard .imgsec {
+    height: 250px;
+    padding: 10px;
+    display: grid;
+    grid-template-rows: 2fr 1fr 2fr 1fr;
+    grid-template-columns: 1fr 2fr;
+    justify-items: center;
+}
+.reccard .imgsec p {
+    font-size: 0.1px;
+    height: 10px;
+    margin: 0px;
+}
+.simg {
+    height: 100px;
+    width: 140px;
+    background-size: cover;
+}
+.c11 {
+    background-image: url(Card11.png);
+}
+.c12 {
+    background-image: url(Card12.png);
+}
+.c13 {
+    background-image: url(Card13.png);
+}
+.c14 {
+    background-image: url(Card14.png);
+}
+.c21 {
+    background-image: url(Card21.png);
+}
+.c22 {
+    background-image: url(Card22.png);
+}
+.c23 {
+    background-image: url(Card23.png);
+}
+.c24 {
+    background-image: url(Card24.png);
+}
+.c31 {
+    background-image: url(Card31.png);
+}
+.c32 {
+    background-image: url(Card32.png);
+}
+.c33 {
+    background-image: url(Card33.png);
+}
+.c34 {
+    background-image: url(Card34.png);
+}
+.c41 {
+    background-image: url(Card41.png);
+}
+.c42 {
+    background-image: url(Card42.png);
+}
+.c43 {
+    background-image: url(Card43.png);
+}
+.c44 {
+    background-image: url(Card44.png);
+}
+.c51 {
+    background-image: url(Card51.png);
+}
+.c52 {
+    background-image: url(Card52.png);
+}
+.c53 {
+    background-image: url(Card53.png);
+}
+.c54 {
+    background-image: url(Card54.png);
+}
+.c61 {
+    background-image: url(Card11.png);
+}
+.c62 {
+    background-image: url(Card13.png);
+}
+.c63 {
+    background-image: url(Card21.png);
+}
+.c64 {
+    background-image: url(Card44.png);
+}
+.c71 {
+    background-image: url(Card11.png);
+}
+.c72 {
+    background-image: url(Card12.png);
+}
+.c73 {
+    background-image: url(Card13.png);
+}
+.c74 {
+    background-image: url(Card14.png);
+}
+.yam1 {
+    grid-column: 1/5;
+}
+.yam2 {
+    grid-column: 1/5;
+}
+.yam3 {
+    grid-column: 1/5;
+}
+.yam4 {
+    grid-column: 1/5;
+}
+.yam5 {
+    grid-column: 1/5;
+}
+.yam6 {
+    grid-column: 1/5;
+}
+.yam7 {
+    grid-column: 1/5;
+}
+.yam8 {
+    grid-column: 1/5;
+}
+.yammm {
+    grid-column: 1/5;
+    width: 100;
+}
+@media (max-width: 1536px) {
+    #disimg {
+        width: 100%;
+    }
+}
+@media (max-width: 1280px) {
+    .catwdiscd {
+        display: none;
+        height: 340px;
+        width: 280px;
+        padding: 15px 7.5px 15px 7.5px;
+    }
+}
+@media (max-width: 1097.14px) {
+}
+@media (max-width: 960px) {
+}
+/* Footer------------------------ */
+
+.footer {
+    background-color: #23364b;
+    color: white;
+    width: 100%;
+    position: relative;
+    top: 6500px;
+    flex-direction: column;
+}
+.signin {
+    background-color: #fff;
+}
+.wan {
+    background-color: #324152;
+    height: 32px;
+    padding-top: 12px;
+    text-align: center;
+    font-size: 13.5px;
+    color: white;
+}
+.wan a {
+    text-decoration: none;
+}
+.tu {
+    height: 400px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    margin-right: 50px;
+    gap: 80px;
+    font-size: 13.5px;
+}
+.tu ul {
+    list-style: none;
+}
+.tu ul h3 {
+    margin: 10px 0px;
+}
+.tu ul li {
+    margin: 0px;
+    opacity: 0.9;
+    margin-bottom: 10px;
+}
+.Threethings {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.Threethings img {
+    width: 110px;
+    margin: 20px;
+}
+.Threethings button {
+    background-color: inherit;
+    border-color: inherit;
+    color: #fff;
+    border-width: 1px;
+    border-radius: 5px;
+    width: 120px;
+    height: 30px;
+    opacity: 0.8;
+}
+.thiri {
+    padding: 20px 0px;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    list-style: none;
+}
+.thiri ul {
+    list-style: none;
+    width: 700px;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    line-height: 14px;
+    margin-left: 500px;
+}
+.thiri ul li {
+    width: 150px;
+    padding: 0px 0px;
+}
+.thiri ul h5 {
+    margin: 0;
+    opacity: 0.7;
+}
+.thiri ul span {
+    margin: 0;
+    opacity: 0.5;
+}
+
+.end {
+    align-items: end;
+    background: #000;
+    text-align: center;
+    line-height: 15px;
+}
+.end a {
+    text-decoration: none;
+    margin-right: 17px;
+}
+.end p {
+    margin-right: 20px;
+}

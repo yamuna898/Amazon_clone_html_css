@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Amazon Cart</title>
+        <link rel="stylesheet" href="topBottom.css" />
+        <link rel="stylesheet" href="cart.css" />
+        <link rel="icon" href="logo.png" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+            integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <style>
+            .footer {
+                position: relative;
+                top: 1500px;
+            }
+        </style>
+    </head>
+    <body>
+        <%- include("includes/FixedTop.html") %>
+        <div class="main">
+            <button id="buy">
+                Great picks!, Proceed to buy the items you want.
+            </button>
+            <div class="itemsandtotal">
+                <div class="items">
+                    <div class="heading">
+                        <h3>Your Orders</h3>
+                        <p>Review your orders before you buy. Thank you!</p>
+                    </div>
+                    <div class="citem d">
+                        Product 1 &nbsp;&nbsp;&nbsp;
+                        <a href="#">See more</a>
+                    </div>
+                    <div class="citem e">
+                        Product 2 &nbsp;&nbsp;&nbsp;
+                        <a href="#">See more</a>
+                    </div>
+                    <div class="citem d">
+                        Product 3 &nbsp;&nbsp;&nbsp;
+                        <a href="#">See more</a>
+                    </div>
+                    <div class="citem e">
+                        Product 4 &nbsp;&nbsp;&nbsp;
+                        <a href="#">See more</a>
+                    </div>
+                    <div class="citem d">
+                        Product 5 &nbsp;&nbsp;&nbsp;
+                        <a href="#">See more</a>
+                    </div>
+                    <div class="citem e">
+                        Product 6 &nbsp;&nbsp;&nbsp;
+                        <a href="#">See more</a>
+                    </div>
+                </div>
+                <div class="total">
+                    <h3>item details</h3>
+                </div>
+            </div>
+            <div class="orderTotal">
+                total item total item Price Delivery ORDER TOTAL
+
+                <div class="SECURE">
+                    SECURE PAYMENT
+                    <P
+                        >We work hard to protect your security and privacy . Our
+                        payment security...(i'll ad auth layers after my
+                        semester)<a href="#">Read more</a>
+                    </P>
+                </div>
+            </div>
+        </div>
+
+        <%- include("includes/FixedBottom.html") %>
+    </body>
+</html>

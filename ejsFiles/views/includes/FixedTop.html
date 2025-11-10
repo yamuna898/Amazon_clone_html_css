@@ -1,176 +1,164 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Document</title>
-    </head>
-    <body>
-        <!-- Upper Top -->
-        <div id="top">
-            <div class="topleft">
-                <img src="logoBlackbg.png" alt="Logo" />
-                <div class="location">
-                    <i class="fa-solid fa-location-dot"></i>
-                    <p>
-                        Delivering to Cuttack 753010<br />
-                        <b>Update Location</b>
-                    </p>
-                </div>
-            </div>
-            <div class="topmid" id="drp">
-                <label for="sr">
-                    <select name="query=" id="dropDown">
-                        <option disabled selected>All</option>
-                        <option value="all">All Categories</option>
-                        <option value="alexa-skills">Alexa Skill</option>
-                        <option value="amazon-devices">Amazon Devices</option>
-                        <option value="fashion">Amazon Fashion</option>
-                        <option value="nowstore">Amazon Fresh</option>
-                        <option value="amazon-pharmacy">Amazon Pharmacy</option>
-                        <option value="appliances">Appliances</option>
-                        <option value="mobile-apps">Apps & Games</option>
-                        <option value="audible">Audible Audiobooks</option>
-                        <option value="baby">Baby</option>
-                        <option value="beauty">Beauty</option>
-                        <option value="stripbooks">Books</option>
-                        <option value="automotive">Car & Motorbike</option>
-                        <option value="apparel">Clothing & Accessories</option>
-                        <option value="collectibles">Collectibles</option>
-                        <option value="computers">
-                            Computers & Accessories
-                        </option>
-                        <option value="todays-deals">Deals</option>
-                        <option value="electronics">Electronics</option>
-                        <option value="furniture">Furniture</option>
-                        <option value="lawngarden">Garden & Outdoors</option>
-                        <option value="gift-cards">Gift Cards</option>
-                        <option value="grocery">Grocery & Gourmet Foods</option>
-                        <option value="hpc">Health & Personal Care</option>
-                        <option value="kitchen">Home & Kitchen</option>
-                        <option value="industrial">
-                            Industrial & Scientific
-                        </option>
-                        <option value="jewelry">Jewellery</option>
-                        <option value="digital-text">Kindle Store</option>
-                        <option value="luggage">Luggage & Bags</option>
-                        <option value="luxury-beauty">Luxury Beauty</option>
-                        <option value="dvd">Movies & TV Shows</option>
-                        <option value="digital-music">MP3 Music</option>
-                        <option value="popular">Music</option>
-                        <option value="mi">Musical Instruments</option>
-                        <option value="office-products">Office Products</option>
-                        <option value="pets">Pet Supplies</option>
-                        <option value="instant-video">Prime Video</option>
-                        <option value="shoes">Shoes & Handbags</option>
-                        <option value="software">Software</option>
-                        <option value="sporting">
-                            Sports, Fitness & Outdoors
-                        </option>
-                        <option value="specialty-aps-sns">
-                            Subscribe & Save
-                        </option>
-                        <option value="home-improvement">Tools&Home</option>
-                        <option value="toys">Toys & Games</option>
-                        <option value="under-ten-dollars">Under ₹500</option>
-                        <option value="videogames">Video Games</option>
-                        <option value="watches">Watches</option>
-                    </select>
-                </label>
-
-                <input type="text" id="sr" placeholder="Search Amazon.in" />
-
-                <button class="fa-solid fa-magnifying-glass"></button>
-            </div>
-            <div class="topright">
-                <p id="lang">🏳️‍🌈 EN</p>
-                <p>Hello, sign in<br /><b>Account &amp; Lists</b></p>
-                <p id="returns">Returns<br />&amp;<b> Orders</b></p>
-                <p>
-                    <i class="fa-solid fa-cart-shopping"></i
-                    >&nbsp;Cart&nbsp;&nbsp;&nbsp;
-                </p>
-            </div>
+<!-- Upper Top -->
+<div id="top">
+    <div class="topleft">
+        <img src="logoBlackbg.png" alt="Logo" />
+        <div class="location">
+            <i class="fa-solid fa-location-dot"></i>
+            <p>
+                Delivering to Cuttack 753010<br />
+                <b>Update Location</b>
+            </p>
         </div>
+    </div>
+    <div class="topmid" id="drp">
+        <label for="sr">
+            <select name="query=" id="dropDown">
+                <option disabled selected>All</option>
+                <option value="all">All Categories</option>
+                <option value="alexa-skills">Alexa Skill</option>
+                <option value="amazon-devices">Amazon Devices</option>
+                <option value="fashion">Amazon Fashion</option>
+                <option value="nowstore">Amazon Fresh</option>
+                <option value="amazon-pharmacy">Amazon Pharmacy</option>
+                <option value="appliances">Appliances</option>
+                <option value="mobile-apps">Apps & Games</option>
+                <option value="audible">Audible Audiobooks</option>
+                <option value="baby">Baby</option>
+                <option value="beauty">Beauty</option>
+                <option value="stripbooks">Books</option>
+                <option value="automotive">Car & Motorbike</option>
+                <option value="apparel">Clothing & Accessories</option>
+                <option value="collectibles">Collectibles</option>
+                <option value="computers">Computers & Accessories</option>
+                <option value="todays-deals">Deals</option>
+                <option value="electronics">Electronics</option>
+                <option value="furniture">Furniture</option>
+                <option value="lawngarden">Garden & Outdoors</option>
+                <option value="gift-cards">Gift Cards</option>
+                <option value="grocery">Grocery & Gourmet Foods</option>
+                <option value="hpc">Health & Personal Care</option>
+                <option value="kitchen">Home & Kitchen</option>
+                <option value="industrial">Industrial & Scientific</option>
+                <option value="jewelry">Jewellery</option>
+                <option value="digital-text">Kindle Store</option>
+                <option value="luggage">Luggage & Bags</option>
+                <option value="luxury-beauty">Luxury Beauty</option>
+                <option value="dvd">Movies & TV Shows</option>
+                <option value="digital-music">MP3 Music</option>
+                <option value="popular">Music</option>
+                <option value="mi">Musical Instruments</option>
+                <option value="office-products">Office Products</option>
+                <option value="pets">Pet Supplies</option>
+                <option value="instant-video">Prime Video</option>
+                <option value="shoes">Shoes & Handbags</option>
+                <option value="software">Software</option>
+                <option value="sporting">Sports, Fitness & Outdoors</option>
+                <option value="specialty-aps-sns">Subscribe & Save</option>
+                <option value="home-improvement">Tools&Home</option>
+                <option value="toys">Toys & Games</option>
+                <option value="under-ten-dollars">Under ₹500</option>
+                <option value="videogames">Video Games</option>
+                <option value="watches">Watches</option>
+            </select>
+        </label>
 
-        <!-- Lower Top -->
+        <input type="text" id="sr" placeholder="Search Amazon.in" />
+        <form action="/query">
+            <button class="fa-solid fa-magnifying-glass"></button>
+        </form>
+    </div>
+    <div class="topright">
+        <p id="lang">🏳️‍🌈 EN</p>
+        <p>Hello, sign in<br /><b>Account &amp; Lists</b></p>
+        <p id="returns">Returns<br />&amp;<b> Orders</b></p>
+        <form action="/cart">
+            <p>
+                <button
+                    class="fa-solid fa-cart-shopping"
+                    style="appearance: none"
+                ></button
+                >&nbsp;Cart&nbsp;&nbsp;&nbsp;
+            </p>
+        </form>
+    </div>
+</div>
 
-        <div class="top1blue">
-            <div class="top1">
-                <label for="#al"><i class="fa-solid fa-bars"> </i></label>
-                <select name="Find=">
-                    <option value="All" id="al" selected disabled>All</option>
-                    <option value="Fresh">Fresh</option>
-                    <option value="MX Player">MX Player</option>
-                    <option value="Sell">Sell</option>
-                    <option value="Bestsellers">Bestsellers</option>
-                    <option value="Today's Deals">Today's Deals</option>
-                    <option value="Mobiles">Mobiles</option>
-                    <option value="Prime">Prime</option>
-                    <option value="Customer Service">Customer Service</option>
-                    <option value="New Releases">New Releases</option>
-                    <option value="Electronics">Electronics</option>
-                    <option value="Fashion">Fashion</option>
-                    <option value="Home & Kitchen">Home & Kitchen</option>
-                    <option value="Amazon Pay">Amazon Pay</option>
-                    <option value="Computers">Computers</option>
-                    <option value="Books">Books</option>
-                    <option value="Home Improvement">Home Improvement</option>
-                    <option value="Beauty & Personal Care">
-                        Beauty & Personal Care
-                    </option>
-                    <option value="Car & Motorbike">Car & Motorbike</option>
-                    <option value="Toys & Games">Toys & Games</option>
-                    <option value="Gift Cards">Gift Cards</option>
-                    <option value="Video Games">Video Games</option>
-                    <option value="Sports, Fitness & Outdoors">
-                        Sports, Fitness & Outdoors
-                    </option>
-                    <option value="Custom Products">Custom Products</option>
-                    <option value="Grocery & Gourmet Foods">
-                        Grocery & Gourmet Foods
-                    </option>
-                    <option value="Health, Household & Personal Care">
-                        Health, Household & Personal Care
-                    </option>
-                    <option value="Audible">Audible</option>
-                    <option value="AmazonBasics">AmazonBasics</option>
-                    <option value="Pet Supplies">Pet Supplies</option>
-                    <option value="Baby">Baby</option>
-                    <option value="Subscribe & Save">Subscribe & Save</option>
-                    <option value="Gift Ideas Flights">Gift Ideas</option>
-                    <option value="Flights">Flights</option>
-                </select>
-                <button>Fresh</button>
-                <button>MX Player</button>
-                <button>Sell</button>
-                <button>Bestsellers</button>
-                <button>Today's Deals</button>
-                <button>Mobiles</button>
-                <button>Prime</button>
-                <button class="f">Customer Service</button>
-                <button class="f">New Releases</button>
-                <button class="f">Electronics</button>
-                <button class="f">Fashion</button>
-                <button class="e">Home & Kitchen</button>
-                <button class="e">Amazon Pay</button>
-                <button class="e">Computers</button>
-                <button class="e">Books</button>
-                <button class="e">Home Improvement</button>
-                <button class="d">Beauty & Personal Care</button>
-                <button class="d">Car & Motorbike</button>
-                <button class="d">Toys & Games</button>
-                <button class="c">Video Games</button>
-                <button class="c">Sports, Fitness & Outdoors</button>
-                <button class="c">Custom Products</button>
-                <button class="c">Grocery & Gourmet Foods</button>
-                <button class="b">Health, Household & Personal Care</button>
-                <button class="b">Audible Baby</button>
-                <button class="b">AmazonBasics</button>
-                <button class="a">Pet Supplies</button>
-                <button class="a">Baby</button>
-                <button class="a">Flights</button>
-            </div>
-        </div>
-    </body>
-</html>
+<!-- Lower Top -->
+
+<div class="top1blue">
+    <div class="top1">
+        <label for="#al"><i class="fa-solid fa-bars"> </i></label>
+        <select name="Find=">
+            <option value="All" id="al" selected disabled>All</option>
+            <option value="Fresh">Fresh</option>
+            <option value="MX Player">MX Player</option>
+            <option value="Sell">Sell</option>
+            <option value="Bestsellers">Bestsellers</option>
+            <option value="Today's Deals">Today's Deals</option>
+            <option value="Mobiles">Mobiles</option>
+            <option value="Prime">Prime</option>
+            <option value="Customer Service">Customer Service</option>
+            <option value="New Releases">New Releases</option>
+            <option value="Electronics">Electronics</option>
+            <option value="Fashion">Fashion</option>
+            <option value="Home & Kitchen">Home & Kitchen</option>
+            <option value="Amazon Pay">Amazon Pay</option>
+            <option value="Computers">Computers</option>
+            <option value="Books">Books</option>
+            <option value="Home Improvement">Home Improvement</option>
+            <option value="Beauty & Personal Care">
+                Beauty & Personal Care
+            </option>
+            <option value="Car & Motorbike">Car & Motorbike</option>
+            <option value="Toys & Games">Toys & Games</option>
+            <option value="Gift Cards">Gift Cards</option>
+            <option value="Video Games">Video Games</option>
+            <option value="Sports, Fitness & Outdoors">
+                Sports, Fitness & Outdoors
+            </option>
+            <option value="Custom Products">Custom Products</option>
+            <option value="Grocery & Gourmet Foods">
+                Grocery & Gourmet Foods
+            </option>
+            <option value="Health, Household & Personal Care">
+                Health, Household & Personal Care
+            </option>
+            <option value="Audible">Audible</option>
+            <option value="AmazonBasics">AmazonBasics</option>
+            <option value="Pet Supplies">Pet Supplies</option>
+            <option value="Baby">Baby</option>
+            <option value="Subscribe & Save">Subscribe & Save</option>
+            <option value="Gift Ideas Flights">Gift Ideas</option>
+            <option value="Flights">Flights</option>
+        </select>
+        <button>Fresh</button>
+        <button>MX Player</button>
+        <button>Sell</button>
+        <button>Bestsellers</button>
+        <button>Today's Deals</button>
+        <button>Mobiles</button>
+        <button>Prime</button>
+        <button class="f">Customer Service</button>
+        <button class="f">New Releases</button>
+        <button class="f">Electronics</button>
+        <button class="f">Fashion</button>
+        <button class="e">Home & Kitchen</button>
+        <button class="e">Amazon Pay</button>
+        <button class="e">Computers</button>
+        <button class="e">Books</button>
+        <button class="e">Home Improvement</button>
+        <button class="d">Beauty & Personal Care</button>
+        <button class="d">Car & Motorbike</button>
+        <button class="d">Toys & Games</button>
+        <button class="c">Video Games</button>
+        <button class="c">Sports, Fitness & Outdoors</button>
+        <button class="c">Custom Products</button>
+        <button class="c">Grocery & Gourmet Foods</button>
+        <button class="b">Health, Household & Personal Care</button>
+        <button class="b">Audible Baby</button>
+        <button class="b">AmazonBasics</button>
+        <button class="a">Pet Supplies</button>
+        <button class="a">Baby</button>
+        <button class="a">Flights</button>
+    </div>
+</div>

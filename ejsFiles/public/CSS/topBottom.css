@@ -1,8 +1,9 @@
 body {
     margin: 0;
-    background-color: #e3d7d7;
+    padding: 0;
     font-family: system-ui;
 }
+
 /* Upper Top--------------------------------*/
 #top {
     z-index: 100;
@@ -69,12 +70,12 @@ body {
 .topmid #dropDown:focus,
 .topmid input:focus {
     /* Border color when the text box is focused (clicked) */
-    border: #fdc428 solid 4.5px;
+    border: rgba(249, 157, 9, 0.948) solid 4.5px;
     outline: none; /* Removes the default browser outline */
 }
 .topmid button {
     border: 0px;
-    background-color: #fdc428;
+    background-color: rgba(249, 157, 9, 0.948);
     font-size: 20px;
     height: 38px;
     width: 40px;
@@ -180,211 +181,11 @@ body {
         display: none;
     }
 }
-/* Main--------------------------------- */
-.mainsec {
-    z-index: 0;
-    display: flex;
-    justify-content: center;
-}
-#disimg {
-    width: 1536px;
-    mask-image: linear-gradient(to top, transparent, black 30%);
-    position: absolute;
-    top: 95px;
-}
-/* OK=================OK===================OK */
-.cards {
-    position: absolute;
-    top: 355px;
-    display: grid;
-    grid-template-rows: repeat(14, 1fr);
-    grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
-    justify-content: center;
-    align-content: center;
-}
-.reccard {
-    background-color: #fff;
-    height: 400px;
-    width: 320px;
-    padding: 10px 15px 0px 15px;
-    display: flex;
-    flex-direction: column;
-}
-.widcard {
-    background-color: white;
-    height: 400px;
-    width: 1432px;
-    padding: 10px 15px 0px 15px;
-}
-.widcard h3 {
-    display: block;
-}
-.widcard div {
-    padding: 40px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    gap: 10px;
-    overflow-x: scroll;
-    width: 1300px;
-}
-.reccard h1 {
-    margin: 0px;
-    padding: 5px;
-}
-.reccard a {
-    justify-self: flex-end;
-}
-.reccard .imgsec {
-    height: 250px;
-    padding: 10px;
-    display: grid;
-    grid-template-rows: 2fr 1fr 2fr 1fr;
-    grid-template-columns: 1fr 2fr;
-    justify-items: center;
-}
-.reccard .imgsec p {
-    font-size: 0.1px;
-    height: 10px;
-    margin: 0px;
-}
-.simg {
-    height: 100px;
-    width: 140px;
-    background-size: cover;
-}
-.c11 {
-    background-image: url(Card11.png);
-}
-.c12 {
-    background-image: url(Card12.png);
-}
-.c13 {
-    background-image: url(Card13.png);
-}
-.c14 {
-    background-image: url(Card14.png);
-}
-.c21 {
-    background-image: url(Card21.png);
-}
-.c22 {
-    background-image: url(Card22.png);
-}
-.c23 {
-    background-image: url(Card23.png);
-}
-.c24 {
-    background-image: url(Card24.png);
-}
-.c31 {
-    background-image: url(Card31.png);
-}
-.c32 {
-    background-image: url(Card32.png);
-}
-.c33 {
-    background-image: url(Card33.png);
-}
-.c34 {
-    background-image: url(Card34.png);
-}
-.c41 {
-    background-image: url(Card41.png);
-}
-.c42 {
-    background-image: url(Card42.png);
-}
-.c43 {
-    background-image: url(Card43.png);
-}
-.c44 {
-    background-image: url(Card44.png);
-}
-.c51 {
-    background-image: url(Card51.png);
-}
-.c52 {
-    background-image: url(Card52.png);
-}
-.c53 {
-    background-image: url(Card53.png);
-}
-.c54 {
-    background-image: url(Card54.png);
-}
-.c61 {
-    background-image: url(Card11.png);
-}
-.c62 {
-    background-image: url(Card13.png);
-}
-.c63 {
-    background-image: url(Card21.png);
-}
-.c64 {
-    background-image: url(Card44.png);
-}
-.c71 {
-    background-image: url(Card11.png);
-}
-.c72 {
-    background-image: url(Card12.png);
-}
-.c73 {
-    background-image: url(Card13.png);
-}
-.c74 {
-    background-image: url(Card14.png);
-}
-.yam1 {
-    grid-column: 1/5;
-}
-.yam2 {
-    grid-column: 1/5;
-}
-.yam3 {
-    grid-column: 1/5;
-}
-.yam4 {
-    grid-column: 1/5;
-}
-.yam5 {
-    grid-column: 1/5;
-}
-.yam6 {
-    grid-column: 1/5;
-}
-.yam7 {
-    grid-column: 1/5;
-}
-.yam8 {
-    grid-column: 1/5;
-}
-.yammm {
-    grid-column: 1/5;
-    width: 100;
-}
-@media (max-width: 1536px) {
-    #disimg {
-        width: 100%;
-    }
-}
-@media (max-width: 1280px) {
-    .catwdiscd {
-        display: none;
-        height: 340px;
-        width: 280px;
-        padding: 15px 7.5px 15px 7.5px;
-    }
-}
-@media (max-width: 1097.14px) {
-}
-@media (max-width: 960px) {
-}
-/* Footer------------------------ */
 
+/* footer */
+body {
+    padding: 0px;
+}
 .footer {
     background-color: #23364b;
     color: white;
@@ -401,11 +202,11 @@ body {
     height: 32px;
     padding-top: 12px;
     text-align: center;
-    font-size: 13.5px;
-    color: white;
 }
 .wan a {
     text-decoration: none;
+    font-size: 13.5px;
+    color: white;
 }
 .tu {
     height: 400px;
@@ -462,7 +263,7 @@ body {
     flex-direction: row;
     gap: 40px;
     line-height: 14px;
-    margin-left: 500px;
+    margin-left: 430px;
 }
 .thiri ul li {
     width: 150px;
@@ -488,5 +289,5 @@ body {
     margin-right: 17px;
 }
 .end p {
-    margin-right: 20px;
+    margin: 5px 18px 5px 0px;
 }
